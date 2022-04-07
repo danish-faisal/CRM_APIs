@@ -1,0 +1,22 @@
+{
+  "name": "crm_apis",
+  "version": "1.0.0",
+  "description": "Building RESTful APIs with Node.js and Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danish-faisal/CRM_APIs.git"
+  },
+  "author": "Danish Faisal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danish-faisal/CRM_APIs/issues"
+  },
+  "homepage": "https://github.com/danish-faisal/CRM_APIs#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
