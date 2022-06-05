@@ -4,7 +4,7 @@
   "description": "Building RESTful APIs with Node.js and Express",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon ./index.js --exec babel-node -e js"
   },
   "repository": {
     "type": "git",
@@ -17,9 +17,11 @@
   },
   "homepage": "https://github.com/danish-faisal/CRM_APIs#readme",
   "dependencies": {
+    "body-parser": "^1.20.0",
     "express": "^4.17.3",
     "mongodb": "^4.6.0",
     "mongoose": "^6.3.5",
+    "nodemon": "^2.0.16",
     "npm": "^8.12.1"
   },
   "devDependencies": {
