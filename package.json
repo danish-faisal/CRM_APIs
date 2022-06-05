@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/danish-faisal/CRM_APIs#readme",
   "dependencies": {
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "mongodb": "^4.6.0",
+    "mongoose": "^6.3.5",
+    "npm": "^8.12.1"
   }
 }
